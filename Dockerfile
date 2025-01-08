@@ -1,5 +1,6 @@
 # Use a specific version of Node.js (LTS or required version)
-FROM node:16-alpine
+FROM public.ecr.aws/docker/library/node:16-alpine
+
 
 # Create and set the working directory
 RUN mkdir -p /usr/src/app
